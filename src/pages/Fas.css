@@ -1,0 +1,34 @@
+.fas-tone-low { --fas-color: #17834e; --fas-ink: #145c39; --fas-tint: #effaf3; --fas-edge: #c2e7d0; }
+.fas-tone-moderate { --fas-color: #e8b523; --fas-ink: #795400; --fas-tint: #fffbed; --fas-edge: #f2dfa0; }
+.fas-tone-high { --fas-color: #d54747; --fas-ink: #9e2929; --fas-tint: #fff3f2; --fas-edge: #f3c9c5; }
+.fas-result { padding: 28px 24px 22px; background: var(--fas-tint); border-block: 1px solid var(--fas-edge); }
+.fas-result-main { display: flex; align-items: center; justify-content: center; gap: 32px; }
+.fas-score-circle { width: 184px; height: 184px; flex: 0 0 184px; border: 10px solid var(--fas-color); border-radius: 50%; background: white; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--fas-ink); }
+.fas-score-caption { font-size: 11px; font-weight: 700; }
+.fas-score-circle strong { font-size: 56px; line-height: 1.1; font-variant-numeric: tabular-nums; margin: 3px 0; }
+.fas-score-denominator { font-size: 13px; color: #5a6364; }
+.fas-result-copy { max-width: 360px; min-width: 0; }
+.fas-eyebrow { font-size: 11px; font-weight: 700; color: #596466; line-height: 1.5; }
+.fas-result-copy h2 { margin-top: 8px; font-size: 24px; font-weight: 700; line-height: 1.25; color: var(--fas-ink); overflow-wrap: break-word; }
+.fas-result-date { margin-top: 12px; font-size: 13px; color: #52605b; }
+.fas-result-note { margin-top: 8px; font-size: 13px; line-height: 1.6; color: #52605b; }
+.fas-scale { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; margin: 28px auto 0; max-width: 620px; }
+.fas-scale-band { display: flex; flex-direction: column; min-width: 0; color: #596466; font-size: 12px; line-height: 1.4; }
+.fas-scale-stripe { height: 6px; background: var(--fas-color); border-radius: 3px; margin-bottom: 10px; }
+.fas-scale-band strong { font-size: 14px; color: #273530; }
+.fas-scale-band span { margin-top: 2px; }
+.fas-scale-band small { color: var(--fas-ink); font-weight: 700; font-size: 11px; margin-top: 5px; }
+.fas-scale-band[aria-current="true"] .fas-scale-stripe { outline: 2px solid var(--fas-ink); outline-offset: 2px; }
+.fas-guidance { display: flex; align-items: flex-start; gap: 16px; padding: 22px 4px; border-bottom: 1px solid #e0e6e2; }
+.fas-guidance-icon { background: var(--fas-tint); color: var(--fas-ink); width: 48px; height: 48px; flex: 0 0 48px; border-radius: 8px; display: grid; place-items: center; }
+.fas-guidance h2 { font-size: 17px; font-weight: 700; margin-top: 5px; line-height: 1.4; }
+.fas-guidance-detail { font-size: 14px; line-height: 1.75; color: #52605b; margin-top: 8px; }
+.fas-next { display: flex; align-items: flex-start; gap: 16px; padding: 16px 4px; color: #326d87; }
+.fas-next-date { font-size: 18px; font-weight: 700; color: #243b44; margin-top: 4px; }
+@media (max-width: 540px) {
+  .fas-result { padding: 24px 16px 20px; }
+  .fas-result-main { flex-direction: column; gap: 20px; text-align: center; }
+  .fas-result-copy h2 { font-size: 22px; }
+  .fas-scale { margin-top: 24px; }
+  .fas-guidance { gap: 12px; }
+}

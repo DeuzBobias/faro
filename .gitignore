@@ -1,0 +1,23 @@
+node_modules/
+.local/
+dist/
+build/
+.cache/
+.env*
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.tmp-*
+
+# Local credentials, databases and certificates
+*.sqlite*
+*.db
+*.db-*
+*.pem
+*.key
+*.pfx
+*.p12
+.netlify/

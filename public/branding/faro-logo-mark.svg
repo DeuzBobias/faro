@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">FARO V2 Logo Mark</title>
+  <desc id="desc">A minimal A-shaped person and support mark for FARO.</desc>
+  <rect width="512" height="512" rx="112" fill="#081E35"/>
+  <path d="M118 323c0-123 66-213 166-257v128c-43 31-64 76-64 136v118H118z" fill="#54B391"/>
+  <path d="M394 323c0-123-66-213-166-257v128c43 31 64 76 64 136v118h102z" fill="#54B391"/>
+  <path d="M220 361c43 47 85 70 128 70 20 0 38-5 54-15v-91c-26 37-59 56-98 56-56 0-112-34-168-101v106c26 31 54 52 84 64z" fill="#E9F5F2"/>
+  <circle cx="256" cy="106" r="48" fill="#E9F5F2"/>
+</svg>
